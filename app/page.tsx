@@ -28,6 +28,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold mb-4">User Data</h1>
           <ul>
             <li>Id: {userData.id}</li>
+            <li>Name: {userData.first_name}</li>
           </ul>
         </>
       ) : (
